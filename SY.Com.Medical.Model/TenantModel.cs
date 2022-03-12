@@ -306,18 +306,21 @@ namespace SY.Com.Medical.Model
         ///  充值时间
         /// </summary>
         [Range(1,100)]
-        public int BuyTime { get; set; } 
+        public int BuyTime { get; set; }
         /// <summary>
         /// 时间单位,年、月、日
         /// </summary>
+        [Required]
         public string TimeUnit { get; set; }
         /// <summary>
         ///  充值人
         /// </summary>
+        [Required]
         public string BuyUser { get; set; }
         /// <summary>
         /// 充值员工
         /// </summary>
+        [Required]
         public string BuyStaff { get; set; }
         /// <summary>
         /// 充值金额
@@ -326,7 +329,7 @@ namespace SY.Com.Medical.Model
         public decimal Price { get; set; }
         /// <summary>
         /// 充值方式
-        /// </summary>
+        /// </summary>        
         public string Way { get; set; }
         /// <summary>
         ///  充值编号

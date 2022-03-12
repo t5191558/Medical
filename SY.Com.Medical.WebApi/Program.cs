@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace SY.Com.Medical.WebApi
 {
     /// <summary>
-    /// 
+    /// 1
     /// </summary>
     public class Program
     {
